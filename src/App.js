@@ -13,11 +13,11 @@ function App() {
        <div>
        <Header/>
        <Routes>
-        <Route exact path="/" element={<Home/>}></Route>
-          <Route exact path="/Login" element={<Login/>}></Route>
-          <Route exact path="/Lib" element={<TestScroll/>}></Route>
-          <Route exact path="/Logout" element={<Home/>}></Route>
-          <Route exact path="/TestScroll" element={<TestScroll/>}></Route>
+        <Route exact path="/my-react-project-1/" element={<Home/>}></Route>
+          <Route exact path="/my-react-project-1/Login" element={<Login/>}></Route>
+          <Route exact path="/my-react-project-1/Lib" element={<TestScroll/>}></Route>
+          <Route exact path="/my-react-project-1/Logout" element={<Home/>}></Route>
+          <Route exact path="/my-react-project-1/TestScroll" element={<TestScroll/>}></Route>
        </Routes>
        </div>
      </Router>
