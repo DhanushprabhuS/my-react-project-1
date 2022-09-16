@@ -4,7 +4,7 @@ export default function Home () {
     return (
     <div>
         <div className='bg-videobox'>
-            <video src='/videos/video-book.mp4' autoPlay loop muted />
+            <video src='./videos/video-book.mp4' autoPlay loop muted />
         
             <h1>LIBARARY MANAGEMENT SYSTEM</h1>
             <p>What are you waiting for? start reading and searching of books</p>
@@ -12,7 +12,7 @@ export default function Home () {
             <div>
                 <a id="btn"
                 className='btn btn-info btn-lg'
-                href="/Login"
+                href="/my-react-project-1/Login"
                 >
                 LOGIN
                 </a>
